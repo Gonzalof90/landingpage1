@@ -15,8 +15,9 @@ function Navbar() {
           <Col xs={0} md-auto className='square border-end'>Features</Col>
           <Col xs={2} className='square border-end'>Plans and Pricing</Col>
           <Col xs={0} className='square border-end'>Blog</Col>
-          <Col xs={3} className='text-start' >Resources</Col>
-          <Col>Sign up</Col>
+          <Col xs={0} >Resources</Col>
+          <Col xs={2}></Col>
+          <Col xs={0}>Sign up</Col>
           <Col>
             <Dropdown>
               <Dropdown.Toggle variant="secondary" id="dropdown-basic">
